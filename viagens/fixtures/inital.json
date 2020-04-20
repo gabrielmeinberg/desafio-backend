@@ -1,0 +1,60 @@
+[
+    
+    {
+        "model": "viagens.classificacao",
+        "pk": 1,
+        "fields": {
+            "classificacao": "Trabalho"
+        }
+    },
+    {
+        "model": "viagens.classificacao",
+        "pk": 2,
+        "fields": {
+            "classificacao": "Atividade f\u00edsica"
+        }
+    },
+    {
+        "model": "viagens.classificacao",
+        "pk": 3,
+        "fields": {
+            "classificacao": "Lazer"
+        }
+    },
+    {
+        "model": "viagens.classificacao",
+        "pk": 4,
+        "fields": {
+            "classificacao": "Deslocamento"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$180000$Iiy6Xh5KQAp2$evJ8xfQrJa9wvmLmHN4Fg2L7AXWpPmMkzJeT+Q+u6uI=",
+            "last_login": "2020-04-18T03:01:19.732Z",
+            "is_superuser": true,
+            "username": "meinreno",
+            "first_name": "",
+            "last_name": "",
+            "email": "gabriel@gabriel.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2020-04-17T02:01:51Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "viagens.viagem",
+        "pk": 1,
+        "fields": {
+            "usuario": 1,
+            "data_inicio": "2020-04-01T03:01:40Z",
+            "data_fim": "2020-04-18T03:01:44Z",
+            "classificacao": 1,
+            "nota": null
+        }
+    }
+]
